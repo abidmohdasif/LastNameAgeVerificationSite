@@ -20,3 +20,5 @@ mySubmit.onclick = function() {
         myResult.textContent = "You are a child.";
     }
 };
+
+//
