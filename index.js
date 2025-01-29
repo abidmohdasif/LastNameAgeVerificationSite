@@ -1,11 +1,11 @@
-const inputAge = document.getElementById('inputAge');
-const ageButton = document.getElementById('submitButton');
-const ageLable = document.getElementById('ageLable');
+const myText = document.getElementById('inputAge');
+const mySubmit = document.getElementById('submitButton');
+const myResult = document.getElementById('result');
 
-
+let age;
 
 mySubmit.onclick = function() {
-    age = inputAge.value;
+    age = myText.value;
     age = Number(age);
 
     if (age > 60) {
